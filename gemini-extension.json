@@ -1,6 +1,6 @@
 {
   "name": "narrareach-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Draft, schedule, and analyze content for Substack, Medium, LinkedIn, X, Bluesky, and Threads.",
   "mcpServers": {
     "narrareach": {

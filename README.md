@@ -1,4 +1,4 @@
-# Narrareach MCP
+# Substack Social MCP by Narrareach
 
 Official connection guide for the hosted [Narrareach](https://www.narrareach.com) MCP server.
 
@@ -29,7 +29,7 @@ Then use your client's OAuth authentication flow. Never place passwords or acces
 Install the extension:
 
 ```sh
-gemini extensions install https://github.com/iancarson/narrareach-mcp
+gemini extensions install https://github.com/iancarson/substack-social-mcp
 ```
 
 Start Gemini CLI, then authenticate the server:

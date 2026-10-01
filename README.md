@@ -24,6 +24,24 @@ claude mcp add --transport http narrareach https://www.narrareach.com/mcp
 
 Then use your client's OAuth authentication flow. Never place passwords or access tokens in a shared configuration file.
 
+## Gemini CLI
+
+Install the extension:
+
+```sh
+gemini extensions install https://github.com/iancarson/narrareach-mcp
+```
+
+Start Gemini CLI, then authenticate the server:
+
+```text
+/mcp auth narrareach
+```
+
+Sign in to your own Narrareach account in the browser. Use `/mcp` to inspect the connection and available tools. The extension contains the remote connection configuration and uses OAuth discovery; it bundles no local server or credentials.
+
+Google's [Gemini CLI Extensions Gallery](https://geminicli.com/extensions/browse/) discovers this public repository using the `gemini-cli-extension` topic. Gallery indexing is separate from publishing the extension.
+
 ## Capabilities
 
 The server exposes 33 tools. They cover draft and note editing, scheduling and cancellation, publishing readiness, authorized workspaces and writers, connected destinations, available analytics, saved inspiration, hashtag sets, and Substack reader activity.
